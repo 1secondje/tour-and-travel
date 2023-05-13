@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/tour-and-travel/static/css/main.8c1c1e83.css",
+    "main.js": "/tour-and-travel/static/js/main.0548e297.js",
+    "static/media/testimonials.png": "/tour-and-travel/static/media/testimonials.2dec40186a8bf9158814.png",
+    "static/media/start.png": "/tour-and-travel/static/media/start.b0861cb0cf2a04b34689.png",
+    "static/media/about.png": "/tour-and-travel/static/media/about.53fb4d310272a4a670cb.png",
+    "static/media/china.png": "/tour-and-travel/static/media/china.c84f38316234201c001f.png",
+    "static/media/montenegro.png": "/tour-and-travel/static/media/montenegro.e281422da17966b90fd8.png",
+    "static/media/switzerland.png": "/tour-and-travel/static/media/switzerland.ea161a4ebdc4bfd8d410.png",
+    "static/media/stories__img2.png": "/tour-and-travel/static/media/stories__img2.abe1cc39196297d4f97d.png",
+    "static/media/indonesia.png": "/tour-and-travel/static/media/indonesia.cd1fc6fed515cf225ee6.png",
+    "static/media/stories__img3.png": "/tour-and-travel/static/media/stories__img3.1e1d7c87a692c4a5bdf3.png",
+    "static/media/guide.png": "/tour-and-travel/static/media/guide.50c1ec92d3785f98f866.png",
+    "static/media/stories__img1.png": "/tour-and-travel/static/media/stories__img1.8c24d3e1d84f2c9ae7a8.png",
+    "static/media/stories__img4.png": "/tour-and-travel/static/media/stories__img4.2dee1c80447513a0e009.png",
+    "index.html": "/tour-and-travel/index.html",
+    "static/media/arrow.svg": "/tour-and-travel/static/media/arrow.585128f5157fe499cdc6.svg",
+    "static/media/logo.svg": "/tour-and-travel/static/media/logo.f70ae7a144344f73d9ed.svg",
+    "main.8c1c1e83.css.map": "/tour-and-travel/static/css/main.8c1c1e83.css.map",
+    "main.0548e297.js.map": "/tour-and-travel/static/js/main.0548e297.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c1c1e83.css",
+    "static/js/main.0548e297.js"
+  ]
+}
