@@ -1,0 +1,33 @@
+@import '../../Styles/var.scss';
+
+.guide {
+	margin-top: 250px;
+	@include flex-b;
+	&__left {
+		width: 40%;
+		&-title {
+			@include title;
+		}
+		&-text {
+			@include text;
+			line-height: 176%;
+			margin: 20px 0 45px 0;
+			max-width: 70%;
+		}
+		&-button {
+			padding: 15px 40px;
+			background-color: #FB8F1D;
+			color: white;
+			border-radius: 8px;
+		}
+	}
+	&__right {
+		width: 45%;
+		display: flex;
+		justify-content: center;
+	img {
+		width: 100%;
+	}
+	}
+
+}

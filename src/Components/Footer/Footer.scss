@@ -1,0 +1,47 @@
+@import '../../Styles/var.scss';
+
+.footer {
+	margin-top: 250px;
+	@include flex-b;
+	&__list {
+		@include flex-b;
+		flex-direction: column;
+		align-items: baseline;
+		&-item {
+			@include text;
+			font-size: 18px;
+			line-height: 210%;
+		}
+	}
+	&__left {
+		width: 26%;
+		&-logo {
+			img {
+
+			}
+		}
+		&-text {
+			@include text;
+			font-size: 18px;
+			line-height: 156%;
+		}
+		&-text:not(:last-child) {
+			margin-bottom: 50px;
+			margin-top: 25px
+		}
+	}
+	&__right {
+		@include flex-b;
+		width: 60%;
+		&-column {
+			@include flex-b;
+			flex-direction: column;
+			align-items: baseline;
+		}
+		&-title {
+			font-size: 19px;
+			line-height: 310%;
+			font-weight: 700;
+		}
+	}
+}

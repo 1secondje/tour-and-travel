@@ -1,0 +1,27 @@
+@import '../../Styles/var.scss';
+.header {
+	@include flex-b;
+	margin-top: 10px;
+	&__logo {
+
+	}
+	.nav {
+		@include flex-b;
+		width: 45%;
+		&__item {
+			color: black;
+		}
+		&__button {
+			padding: 15px 35px;
+			border: 1px solid #FB8F1D;
+			border-radius: 8px;
+		}
+	}
+}
+.login {
+	color: #FB8F1D;
+}
+.register {
+	color: white;
+	background-color: #FB8F1D;
+}

@@ -1,0 +1,56 @@
+@import '../../Styles/var.scss';
+
+.start {
+	margin-top: 55px;
+	@include flex-b;
+	&__left {
+		&-title {
+			@include title;
+			margin-bottom: 75px;
+			line-height: 110%;
+			font-size: 64px;
+		}
+		&-text {
+			font-size: 22px;
+			font-weight: 600;
+		}
+		&-line {
+			width: 30px;
+			height: 2px;
+			background-color: black;
+			margin-top: 30px;
+		}
+		&-selectors {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 30px;
+			margin: 40px 0px;
+		}
+		&-selector {
+			padding: 20px 30px;
+			border: 1px solid #AFB0B9;
+			border-radius: 6px;
+			width: 45%;
+			color: #4A4C53;
+			@include flex-b;
+			cursor: pointer;
+		}
+		&-button {
+			padding: 20px 50px;
+			background-color: #FB8F1D;
+			color: white;
+			border-radius: 8px;
+			cursor: pointer;
+			display: inline-block;
+		}
+	}
+
+	&__right {
+		width: 50%;
+		display: flex;
+		justify-content: center;
+		img {
+			width: 80%;
+		}
+	}
+}

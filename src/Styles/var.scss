@@ -1,0 +1,16 @@
+@mixin text {
+	font-size: 15px;
+	font-weight: 300;
+	color: #7D7987;
+}
+@mixin title {
+	font-size: 50px;
+	font-weight: 700;
+	font-family: 'Playfair Display', serif;
+	color: #000000;
+}
+@mixin flex-b {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}

@@ -1,0 +1,58 @@
+@import '../../Styles/var.scss';
+
+.stories {
+	margin-top: 250px;
+
+	&__cards {
+		@include flex-b;
+		align-items: stretch;
+	}
+	&__block {
+		@include flex-b;
+	}
+	&__title {
+		@include title;
+		margin-bottom: 55px;
+	}
+	&__link {
+color: #FB8F1D;
+font-weight: 600;
+font-size: 17px;
+line-height: 350%;
+	}
+	&__card {
+		width: 24%;
+		@include flex-b;
+		flex-direction: column;
+		align-items: baseline;
+		&-img {
+			overflow: hidden;
+			width: 100%;
+			height: 330px;
+			object-fit: fill;
+			img {
+				width: 100%;
+    height: 100%;
+    object-fit: cover;	
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+			}
+		}
+		&-title {
+			font-weight: 700;
+			font-size: 19px;
+			line-height: 158%;
+			margin: 15px 0;
+		}
+		&-text {
+@include text;
+line-height: 173%;
+margin-bottom: 25px;
+		}
+		&-link {
+			font-weight: 600;
+			line-height: 187%;
+			color: #FB8F1D;
+		}
+	}
+}

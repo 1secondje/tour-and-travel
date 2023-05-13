@@ -1,0 +1,38 @@
+@import '../../Styles/var.scss';
+
+.destinations {
+  margin-top: 250px;
+	&__title {
+		@include title;
+		margin-bottom: 55px
+	}
+  &__cards {
+		@include flex-b;
+  }
+  &__card {
+		width: 19%;
+		img {
+			border-radius: 8px;
+
+		}
+		&-block {
+			background-color: white;
+			border-top-right-radius: 6px;
+			display: inline-block;
+			position: relative;
+			bottom: 48px;
+			padding-top: 10px;
+			padding-right: 10px;
+		}
+    &-country {
+			font-size: 17px;
+			font-weight: 600;
+			margin-bottom: 6px;
+    }
+    &-city {
+			color: #80918E;
+			font-size: 15px;
+			font-weight: 500;
+    }
+  }
+}
