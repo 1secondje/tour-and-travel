@@ -27,13 +27,20 @@
 			margin: 40px 0px;
 		}
 		&-selector {
-			padding: 20px 30px;
+			padding: 20px 15px;
 			border: 1px solid #AFB0B9;
 			border-radius: 6px;
 			width: 45%;
 			color: #4A4C53;
-			@include flex-b;
 			cursor: pointer;
+			font-family: inherit;
+			transition: .3s linear;
+			&:hover,
+			&:focus {
+				border: 1px solid black;
+				transition: .3s linear;
+				color: black;
+			}
 		}
 		&-button {
 			padding: 20px 50px;
@@ -42,6 +49,14 @@
 			border-radius: 8px;
 			cursor: pointer;
 			display: inline-block;
+			font-size: 17px;
+			transition: 0.3s linear;
+			border: 1px solid #FB8F1D;
+			&:hover {
+				background-color: white;
+				color: #FB8F1D;
+				transition: 0.3s linear;
+			}
 		}
 	}
 

@@ -13,6 +13,7 @@ return (
 	navigation
 	onSwiper={(swiper) => console.log(swiper)}
 	onSlideChange={() => console.log('slide change')}
+	data-aos='zoom-in'
 >
 		{card.map(el => {
 			return (

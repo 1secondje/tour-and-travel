@@ -10,10 +10,14 @@
 		@include flex-b;
   }
   &__card {
-		width: 19%;
+		width: 20%;
+		box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+		backdrop-filter: blur(6px);
+		border-radius: 8px;
+		cursor: pointer;
 		img {
 			border-radius: 8px;
-
+			width: 100%;
 		}
 		&-block {
 			background-color: white;

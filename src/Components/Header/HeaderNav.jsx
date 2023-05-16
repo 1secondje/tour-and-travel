@@ -8,8 +8,8 @@ const HeaderNav = ({nav}) => {
 								)
 						})
 				}
-						<a href="#" className="nav__button login">Login</a>
-						<a href="#" className="nav__button register">Register</a>
+						<a href="#" className="nav__button login button">Login</a>
+						<a href="#" className="nav__button register button">Register</a>
 		</nav>
 )
 }

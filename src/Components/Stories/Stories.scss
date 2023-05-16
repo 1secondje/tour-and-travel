@@ -6,6 +6,7 @@
 	&__cards {
 		@include flex-b;
 		align-items: stretch;
+		flex-wrap: wrap
 	}
 	&__block {
 		@include flex-b;
@@ -19,12 +20,14 @@ color: #FB8F1D;
 font-weight: 600;
 font-size: 17px;
 line-height: 350%;
+cursor: pointer;
 	}
 	&__card {
 		width: 24%;
 		@include flex-b;
 		flex-direction: column;
 		align-items: baseline;
+		margin-bottom: 60px;
 		&-img {
 			overflow: hidden;
 			width: 100%;

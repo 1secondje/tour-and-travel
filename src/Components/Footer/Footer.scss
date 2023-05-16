@@ -1,8 +1,22 @@
 @import '../../Styles/var.scss';
 
 .footer {
-	margin-top: 250px;
-	@include flex-b;
+	margin-top: 200px;
+	&__container {
+		@include flex-b;
+	}
+	&__line {
+		width: 100%;
+		height: 1px;
+		background-color: #C4C4C4;
+		margin-top: 70px;
+	}
+	&__social {
+		@include flex-b;
+		width: 15%;
+		margin: 30px auto;
+		padding-bottom: 30px
+	}
 	&__list {
 		@include flex-b;
 		flex-direction: column;

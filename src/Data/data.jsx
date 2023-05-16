@@ -37,11 +37,20 @@ export const data = {
 			grade: {
 				name: 'Grade',
 				grades: [
-					{id: 1, name: '1'},
-					{id: 2, name: '2'},
-					{id: 3, name: '3'},
-					{id: 4, name: '4'},
-					{id: 5, name: '5'},
+					{id: 1, name: '★'},
+					{id: 2, name: '★★'},
+					{id: 3, name: '★★★'},
+					{id: 4, name: '★★★★'},
+					{id: 5, name: '★★★★★'},
+				]
+			},
+			date: {
+				dates: [
+					{id: 1, name: '01.01'},
+					{id: 2, name: '01.02'},
+					{id: 3, name: '01.03'},
+					{id: 4, name: '01.04'},
+					{id: 5, name: '01.05'},
 				]
 			}
 		}
@@ -78,7 +87,11 @@ export const data = {
 			{id: 1, name:'The many benefits of taking a healing holiday', text: '‘Helaing holidays’ are on the rise tohelp maximise your health and happines...', img: 'stories__img1.png'},
 			{id: 2, name:'The best Kyoto restaurant to try Japanese food', text: 'From tofu to teahouses, here’s our guide to Kyoto’s best restaurants to visit...', img: 'stories__img2.png'},
 			{id: 3, name:'Skip Chichen Itza and head to this remote Yucatan', text: 'It’s remote and challenging to get, but braving the jungle and exploring these ruins without the...', img: 'stories__img3.png'},
-			{id: 4, name:'Surf’s up at these beginner spots around the world', text: 'If learning to surf has in on your to-do list for a while, the good news is: it’s never too late...', img: 'stories__img4.png'}
+			{id: 4, name:'Surf’s up at these beginner spots around the world', text: 'If learning to surf has in on your to-do list for a while, the good news is: it’s never too late...', img: 'stories__img4.png'},
+			{id: 5, name:'The many benefits of taking a healing holiday', text: '‘Helaing holidays’ are on the rise tohelp maximise your health and happines...', img: 'stories__img1.png'},
+			{id: 6, name:'The best Kyoto restaurant to try Japanese food', text: 'From tofu to teahouses, here’s our guide to Kyoto’s best restaurants to visit...', img: 'stories__img2.png'},
+			{id: 7, name:'Skip Chichen Itza and head to this remote Yucatan', text: 'It’s remote and challenging to get, but braving the jungle and exploring these ruins without the...', img: 'stories__img3.png'},
+			{id: 8, name:'Surf’s up at these beginner spots around the world', text: 'If learning to surf has in on your to-do list for a while, the good news is: it’s never too late...', img: 'stories__img4.png'}
 		]
 	},
 	footer: {
@@ -105,6 +118,13 @@ export const data = {
 			{id:3, name: 'Wildlife And Nature'},
 			{id:4, name: 'Family Holidays'},
 			{id:5, name: 'Food And Drink'},
+		],
+		social: [
+			{id:1, img: 'twitter.svg',},
+			{id:2, img: 'facebook.svg'},
+			{id:3, img: 'instagram.svg'},
+			{id:4, img: 'in.svg'},
+			{id:5, img: 'youtube.svg'},
 		]
 	}
 }

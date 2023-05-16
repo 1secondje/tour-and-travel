@@ -1,27 +1,53 @@
-@import '../../Styles/var.scss';
+@import "../../Styles/var.scss";
 .header {
-	@include flex-b;
-	margin-top: 10px;
-	&__logo {
-
-	}
-	.nav {
-		@include flex-b;
-		width: 45%;
-		&__item {
-			color: black;
-		}
-		&__button {
-			padding: 15px 35px;
-			border: 1px solid #FB8F1D;
-			border-radius: 8px;
-		}
-	}
+  @include flex-b;
+  margin-top: 10px;
+  &__logo {
+  }
+  .nav {
+    @include flex-b;
+    width: 45%;
+    &__item {
+      color: black;
+			position: relative;
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        right: 0;
+        bottom: -3px;
+        width: 0;
+        height: 2px;
+        background-color: black;
+        transition: width 0.5s;
+      }
+      &:hover:after {
+        content: "";
+        width: 100%;
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -3px;
+        height: 2px;
+        background-color: black;
+        transition: width 0.5s;
+      }
+    }
+    &__button {
+      padding: 15px 35px;
+      border: 1px solid #fb8f1d;
+      border-radius: 8px;
+    }
+  }
 }
 .login {
-	color: #FB8F1D;
+  --color: #fb8f1d;
+  color: #fb8f1d;
+  &:hover {
+    color: white;
+  }
 }
 .register {
-	color: white;
-	background-color: #FB8F1D;
+  color: white;
+  background-color: #fb8f1d;
 }
